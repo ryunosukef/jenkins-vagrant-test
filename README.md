@@ -139,3 +139,19 @@ $ vagrant destroy -f local
 [local] Destroying VM and associated drives...
 ```
 
+vagrant status
+---------------
+
+最後にVMが起動していないことを確認する
+
+```
+$ vagrant status
+Current machine states:
+
+local                     not created (virtualbox)
+remote                    not created (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+```
