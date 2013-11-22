@@ -86,3 +86,29 @@ Preparing...                ########################################### [100%]
 Thank you for installing Chef!
 ```
 
+knife solo cook
+--------------
+
+```
+$ bundle exec knife solo cook jenkingrant -F vagrant-ssh.conf
+Running Chef on jenkingrant...
+Checking Chef version...
+Uploading the kitchen...
+Generating solo config...
+Running Chef...
+Starting Chef Client, version 11.6.0
+Compiling Cookbooks...
+Converging 2 resources
+Recipe: nginx::default
+  * package[nginx] action install
+    - install version 1.0.15-5.el6 of package nginx
+
+  * service[nginx] action enable
+    - enable service service[nginx]
+
+  * service[nginx] action start
+    - start service service[nginx]
+
+Chef Client finished, 3 resources updated
+```
+
