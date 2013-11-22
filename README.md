@@ -112,3 +112,14 @@ Recipe: nginx::default
 Chef Client finished, 3 resources updated
 ```
 
+rake spec
+---------------
+
+```
+$ bundle exec rake ci:setup:rspec spec
+.....
+
+Finished in 0.35925 seconds
+5 examples, 0 failures
+```
+
