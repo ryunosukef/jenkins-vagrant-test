@@ -123,3 +123,10 @@ Finished in 0.35925 seconds
 5 examples, 0 failures
 ```
 
+delete ssh config
+---------------
+
+```
+$ rm -f vagrant-ssh.conf
+```
+
