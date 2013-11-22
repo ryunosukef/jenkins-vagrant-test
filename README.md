@@ -130,3 +130,12 @@ delete ssh config
 $ rm -f vagrant-ssh.conf
 ```
 
+vagrant destroy
+---------------
+
+```
+$ vagrant destroy -f local
+[local] Forcing shutdown of VM...
+[local] Destroying VM and associated drives...
+```
+
